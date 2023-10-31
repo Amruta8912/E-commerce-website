@@ -132,51 +132,28 @@ width: 100%;
 
    /* feature */
 
-   #feature{
+   .acess{
+    height: 800px;
+    width: 100%;
+   }
+   .acess .desc{
+    margin: 10px;
+    margin-left: 50px;
+   }
+   .discore{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;   }
-   #feature .fe-box{
-    width: 180px;
-    text-align: center;
-    padding: 25px 15px;
-    box-shadow: 20px 20px 34px rgba(0,0 ,0 ,0.07 );
-    border: 1px solid #cce7d0;
-    border-radius: 4px;
-    margin: 15px 0;
+}
+   .pro4 img{
+    height: 700px;
+    margin: 10px;
+    cursor: pointer;
+    margin-left: 50px;
+
    }
-   #feature .fe-box:hover{
-    box-shadow: 10px 0px 54px rgba(0,0 ,0 ,0.04);
-   }
-   #feature .fe-box h6{
-    display: inline-block;
-    padding: 9px 8px 6px 8px;
-    line-height: 7px;
-    border-radius: 4px;
-    color: #088178;
-    background-color: #fddde4;
-   }
-   .fe-box img{
-    height: 100px;
-    width: 100px;
-    margin-bottom: 10px;
-   }
-   #feature .fe-box:nth-child(2) h6{
-    background-color: #22ffb9;
-   }
-   #feature .fe-box:nth-child(3) h6{
-    background-color: #e7fc61;
-   }
-   #feature .fe-box:nth-child(4) h6{
-    background-color: #ff19fb;
-   }
-   #feature .fe-box:nth-child(5) h6{
-    background-color: #34ff22;
-   }
-   #feature .fe-box:nth-child(6) h6{
-    background-color: #22e5ff;
-   }
+
+   
    /* product */
    #product1{
     text-align: center;
@@ -244,7 +221,74 @@ width: 100%;
    width: 100%;
 }
 .mybanner video{
-    height: 00px;
-    height: 500px;
+     height: 500px;
     margin-left: 150px;
 }
+/* seller */
+.seller{
+    height: 600px;
+    width: 100vh;
+    margin: 10px;
+}
+.seller .descption h1{
+margin: 10px ;
+margin-left:100px;
+
+padding-bottom: 10px;
+}
+.seller #newclothes img{
+    height: 400px;
+   margin-left:100px;
+   cursor: pointer;
+}
+  
+#newclothes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 600px;
+}
+
+.seller #newclothes .imgs h3{
+    margin-left:100px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+/* new arrival */
+.focus{
+    height: 500px;
+    width: 100%;
+}
+.arrival h2{
+    margin: 10px;
+    text-align: center;
+}
+
+.pro2{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px 0;
+    position: relative
+}
+ .pro2 img{
+    width: 100%;
+     }
+  .pro2 .des1{
+    text-align: start;
+    padding: 10px 0;
+   }
+.pro-container2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;flex-wrap: wrap;
+}
+
+ 
