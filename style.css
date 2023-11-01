@@ -121,10 +121,11 @@ width: 100%;
     font-size: 20px;
     font-weight: 400;
    }   
-   #heading1  button{
+   #heading1  .btn2{
     background-color: transparent;
     padding: 15px;
     font-size: 15px;
+    transition: 0.2s;
    }
    #heading1  button:hover{
     background-color: rgba(11, 137, 83,0.5);
@@ -157,6 +158,7 @@ width: 100%;
    /* product */
    #product1{
     text-align: center;
+ margin-top: 10px;
    }
    #product1 .pro-container{
     display: flex;
@@ -291,4 +293,108 @@ padding-bottom: 10px;
     padding-top: 10px;flex-wrap: wrap;
 }
 
- 
+/* banner2 */
+#banner2{
+    margin-top: 50px;
+  padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#banner2 .ban-box{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: start;
+padding: 30px;
+background-image: url('/img/deal.jpg');
+min-width : 580px;
+height: 50vh;
+background-size: cover;
+background-position: center;
+}
+#banner2 h4{
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+}
+#banner2 h2{
+    color: black;
+    font-size: 40px;
+    font-weight: 700;
+}
+#banner2 button{
+    border: 1px solid white;
+    margin-top: 20px;
+    color: white;
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 19px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+}
+#banner2 button:hover{
+    background-color: #088178;
+    border: 1px solid #088178;
+}
+#banner2 .banner-box1{
+    background-image: url('/img/clothes.jpg');    
+}
+
+/* banner3 */
+#banner3 .access{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+     background-image: url('/img/jewellaery.webp');
+     min-width : 30%;
+     height: 60vh;
+     background-size: cover;
+     background-position: center; 
+     margin-bottom: 20px;
+   padding-left: 20px;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 18px;
+    height: 500px;
+    cursor: pointer;
+}
+#banner3  h2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+#banner3  h3{
+    font-weight: 800;
+    font-size: 25px;
+    color: #000000;
+    }
+    #banner3 .access1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    background-image: url('/img/pretty-red-head-woman-yellow-dress-posing-yellow-summer-mood_273443-4421.avif');
+    height: 60vh;
+    min-width : 30%;
+    background-size: cover;
+    background-position: center; 
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+#banner3 .access2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('/img/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-shopping-holding-paper-bags-talking-mobile-phone-shopaholic_285396-2957.avif');
+    height: 60vh;
+    min-width : 30%;
+    background-size: cover;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
